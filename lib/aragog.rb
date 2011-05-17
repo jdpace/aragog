@@ -1,3 +1,10 @@
-module Aragog
-  # Your code goes here...
-end
+require 'capybara'
+
+require 'aragog/configuration'
+require 'aragog/driver'
+require 'aragog/request'
+require 'aragog/handler'
+require 'aragog/reporter'
+require 'aragog/queue'
+require 'aragog/crawler'
+require 'aragog/dsl'
